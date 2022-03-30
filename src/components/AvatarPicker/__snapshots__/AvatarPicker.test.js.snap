@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Before clicking active avatar 1`] = `
+<div
+  className="AvatarPickerWrapper"
+>
+  <div
+    className="ActiveAvatarWrapper"
+  >
+    <Avatar
+      avatar={
+        Object {
+          "id": 1,
+          "label": "Avatar 1",
+          "src": "/static/media/avatar1.7467b519.png",
+        }
+      }
+      highlight={false}
+      isActive={true}
+      onClickAvatar={[Function]}
+      showSpinner={false}
+    />
+  </div>
+  <div
+    className="ModalWrapper"
+  >
+    <Modal
+      hide={[Function]}
+      show={false}
+    >
+      <p
+        className="TitleText"
+      >
+        Choose your avatar
+      </p>
+      <AvatarList
+        avatars={
+          Array [
+            Object {
+              "id": 1,
+              "label": "Avatar 1",
+              "src": "/static/media/avatar1.7467b519.png",
+            },
+            Object {
+              "id": 2,
+              "label": "Avatar 2",
+              "src": "/static/media/avatar3.c1a8b069.png",
+            },
+          ]
+        }
+        highlight={[Function]}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={[Function]}
+      />
+    </Modal>
+  </div>
+</div>
+`;
+
+exports[`1. Before clicking an avatar in the list 1`] = `
+<div
+  className="AvatarPickerWrapper"
+>
+  <div
+    className="ActiveAvatarWrapper"
+  >
+    <Avatar
+      avatar={
+        Object {
+          "id": 1,
+          "label": "Avatar 1",
+          "src": "/static/media/avatar1.7467b519.png",
+        }
+      }
+      highlight={false}
+      isActive={true}
+      onClickAvatar={[Function]}
+      showSpinner={false}
+    />
+  </div>
+  <div
+    className="ModalWrapper"
+  >
+    <Modal
+      hide={[Function]}
+      show={false}
+    >
+      <p
+        className="TitleText"
+      >
+        Choose your avatar
+      </p>
+      <AvatarList
+        avatars={
+          Array [
+            Object {
+              "id": 1,
+              "label": "Avatar 1",
+              "src": "/static/media/avatar1.7467b519.png",
+            },
+            Object {
+              "id": 2,
+              "label": "Avatar 2",
+              "src": "/static/media/avatar3.c1a8b069.png",
+            },
+          ]
+        }
+        highlight={[Function]}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={[Function]}
+      />
+    </Modal>
+  </div>
+</div>
+`;
+
+exports[`1. Before hiding Modal 1`] = `
+<div
+  className="AvatarPickerWrapper"
+>
+  <div
+    className="ActiveAvatarWrapper"
+  >
+    <Avatar
+      avatar={
+        Object {
+          "id": 1,
+          "label": "Avatar 1",
+          "src": "/static/media/avatar1.7467b519.png",
+        }
+      }
+      highlight={false}
+      isActive={true}
+      onClickAvatar={[Function]}
+      showSpinner={false}
+    />
+  </div>
+  <div
+    className="ModalWrapper"
+  >
+    <Modal
+      hide={[Function]}
+      show={true}
+    >
+      <p
+        className="TitleText"
+      >
+        Choose your avatar
+      </p>
+      <AvatarList
+        avatars={
+          Array [
+            Object {
+              "id": 1,
+              "label": "Avatar 1",
+              "src": "/static/media/avatar1.7467b519.png",
+            },
+            Object {
+              "id": 2,
+              "label": "Avatar 2",
+              "src": "/static/media/avatar3.c1a8b069.png",
+            },
+          ]
+        }
+        highlight={[Function]}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={[Function]}
+      />
+    </Modal>
+  </div>
+</div>
+`;
+
+exports[`2. After clicking active avatar 1`] = `
+<div
+  className="AvatarPickerWrapper"
+>
+  <div
+    className="ActiveAvatarWrapper"
+  >
+    <Avatar
+      avatar={
+        Object {
+          "id": 1,
+          "label": "Avatar 1",
+          "src": "/static/media/avatar1.7467b519.png",
+        }
+      }
+      highlight={false}
+      isActive={true}
+      onClickAvatar={[Function]}
+      showSpinner={false}
+    />
+  </div>
+  <div
+    className="ModalWrapper"
+  >
+    <Modal
+      hide={[Function]}
+      show={true}
+    >
+      <p
+        className="TitleText"
+      >
+        Choose your avatar
+      </p>
+      <AvatarList
+        avatars={
+          Array [
+            Object {
+              "id": 1,
+              "label": "Avatar 1",
+              "src": "/static/media/avatar1.7467b519.png",
+            },
+            Object {
+              "id": 2,
+              "label": "Avatar 2",
+              "src": "/static/media/avatar3.c1a8b069.png",
+            },
+          ]
+        }
+        highlight={[Function]}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={[Function]}
+      />
+    </Modal>
+  </div>
+</div>
+`;
+
+exports[`2. After clicking an avatar in the list 1`] = `
+<div
+  className="AvatarPickerWrapper"
+>
+  <div
+    className="ActiveAvatarWrapper"
+  >
+    <Avatar
+      avatar={
+        Object {
+          "id": 2,
+          "label": "Avatar 2",
+          "src": "test-file-stub",
+        }
+      }
+      highlight={false}
+      isActive={true}
+      onClickAvatar={[Function]}
+      showSpinner={false}
+    />
+  </div>
+  <div
+    className="ModalWrapper"
+  >
+    <Modal
+      hide={[Function]}
+      show={false}
+    >
+      <p
+        className="TitleText"
+      >
+        Choose your avatar
+      </p>
+      <AvatarList
+        avatars={
+          Array [
+            Object {
+              "id": 1,
+              "label": "Avatar 1",
+              "src": "/static/media/avatar1.7467b519.png",
+            },
+            Object {
+              "id": 2,
+              "label": "Avatar 2",
+              "src": "/static/media/avatar3.c1a8b069.png",
+            },
+          ]
+        }
+        highlight={[Function]}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={[Function]}
+      />
+    </Modal>
+  </div>
+</div>
+`;
+
+exports[`2. After hiding Modal 1`] = `
+<div
+  className="AvatarPickerWrapper"
+>
+  <div
+    className="ActiveAvatarWrapper"
+  >
+    <Avatar
+      avatar={
+        Object {
+          "id": 1,
+          "label": "Avatar 1",
+          "src": "/static/media/avatar1.7467b519.png",
+        }
+      }
+      highlight={false}
+      isActive={true}
+      onClickAvatar={[Function]}
+      showSpinner={false}
+    />
+  </div>
+  <div
+    className="ModalWrapper"
+  >
+    <Modal
+      hide={[Function]}
+      show={false}
+    >
+      <p
+        className="TitleText"
+      >
+        Choose your avatar
+      </p>
+      <AvatarList
+        avatars={
+          Array [
+            Object {
+              "id": 1,
+              "label": "Avatar 1",
+              "src": "/static/media/avatar1.7467b519.png",
+            },
+            Object {
+              "id": 2,
+              "label": "Avatar 2",
+              "src": "/static/media/avatar3.c1a8b069.png",
+            },
+          ]
+        }
+        highlight={[Function]}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={[Function]}
+      />
+    </Modal>
+  </div>
+</div>
+`;
+
+exports[`Initial Render 1`] = `
+<div
+  className="AvatarPickerWrapper"
+>
+  <div
+    className="ActiveAvatarWrapper"
+  >
+    <Avatar
+      avatar={
+        Object {
+          "id": 1,
+          "label": "Avatar 1",
+          "src": "/static/media/avatar1.7467b519.png",
+        }
+      }
+      highlight={false}
+      isActive={true}
+      onClickAvatar={[Function]}
+      showSpinner={false}
+    />
+  </div>
+  <div
+    className="ModalWrapper"
+  >
+    <Modal
+      hide={[Function]}
+      show={false}
+    >
+      <p
+        className="TitleText"
+      >
+        Choose your avatar
+      </p>
+      <AvatarList
+        avatars={
+          Array [
+            Object {
+              "id": 1,
+              "label": "Avatar 1",
+              "src": "/static/media/avatar1.7467b519.png",
+            },
+            Object {
+              "id": 2,
+              "label": "Avatar 2",
+              "src": "/static/media/avatar3.c1a8b069.png",
+            },
+          ]
+        }
+        highlight={[Function]}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={[Function]}
+      />
+    </Modal>
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Before - Show Backdrop 1`] = `
+<div
+  className="Backdrop"
+  onClick={[Function]}
+/>
+`;
+
+exports[`2. After - Hide Backdrop 1`] = `""`;

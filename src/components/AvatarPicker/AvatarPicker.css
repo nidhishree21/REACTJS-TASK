@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+.TitleText {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(249, 249, 249);
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.ActiveAvatarWrapper {
+  max-width: 62px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ModalWrapper {
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}

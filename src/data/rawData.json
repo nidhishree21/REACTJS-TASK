@@ -1,0 +1,10 @@
+{
+  "imageData": [
+    { "src": "avatar1", "label": "Avatar 1", "id": 1 },
+    { "src": "avatar2", "label": "Avatar 2", "id": 2 },
+    { "src": "avatar3", "label": "Avatar 3", "id": 3 },
+    { "src": "avatar4", "label": "Avatar 4", "id": 4 },
+    { "src": "avatar5", "label": "Avatar 5", "id": 5 },
+    { "src": "avatar6", "label": "Avatar 6", "id": 6 }
+  ]
+}

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders correctly 1`] = `
+<Avatar
+  avatar={
+    Object {
+      "id": 1,
+      "label": "Avatar 1",
+      "src": "/static/media/avatar1.7467b519.png",
+    }
+  }
+  highlight={false}
+  isActive={true}
+  onClickAvatar={[Function]}
+  showSpinner={false}
+>
+  <div
+    className="ActiveImgWrapper"
+    id={1}
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    tabIndex="0"
+  >
+    <img
+      alt="Avatar 1"
+      className="Img"
+      src="/static/media/avatar1.7467b519.png"
+    />
+  </div>
+</Avatar>
+`;

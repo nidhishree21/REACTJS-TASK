@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarList renders the Avatar List correctly 1`] = `
+<AvatarList
+  avatars={
+    Array [
+      Object {
+        "id": 1,
+        "label": "Avatar 1",
+        "src": "/static/media/avatar1.7467b519.png",
+      },
+      Object {
+        "id": 2,
+        "label": "Avatar 2",
+        "src": "/static/media/avatar3.c1a8b069.png",
+      },
+    ]
+  }
+  highlight={[Function]}
+  isActive={false}
+  onClickAvatar={[Function]}
+  showSpinner={[Function]}
+>
+  <ul>
+    <li
+      key="1"
+    >
+      <Avatar
+        avatar={
+          Object {
+            "id": 1,
+            "label": "Avatar 1",
+            "src": "/static/media/avatar1.7467b519.png",
+          }
+        }
+        highlight={false}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={false}
+      >
+        <div
+          className="ListImgWrapper null"
+          id={1}
+          onClick={[Function]}
+          onKeyUp={[Function]}
+          tabIndex="0"
+        >
+          <img
+            alt="Avatar 1"
+            className="Img"
+            src="/static/media/avatar1.7467b519.png"
+          />
+        </div>
+      </Avatar>
+    </li>
+    <li
+      key="2"
+    >
+      <Avatar
+        avatar={
+          Object {
+            "id": 2,
+            "label": "Avatar 2",
+            "src": "/static/media/avatar3.c1a8b069.png",
+          }
+        }
+        highlight={false}
+        isActive={false}
+        onClickAvatar={[Function]}
+        showSpinner={false}
+      >
+        <div
+          className="ListImgWrapper null"
+          id={2}
+          onClick={[Function]}
+          onKeyUp={[Function]}
+          tabIndex="0"
+        >
+          <img
+            alt="Avatar 2"
+            className="Img"
+            src="/static/media/avatar3.c1a8b069.png"
+          />
+        </div>
+      </Avatar>
+    </li>
+  </ul>
+</AvatarList>
+`;

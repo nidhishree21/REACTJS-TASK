@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders Modal correctly 1`] = `
+<React.Fragment>
+  <Backdrop
+    hide={[Function]}
+    show={true}
+  />
+  <div
+    className="Modal DisplayModal"
+    tabIndex="0"
+  />
+</React.Fragment>
+`;
